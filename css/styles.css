@@ -95,6 +95,10 @@ h2 {
 }
 /* index hero */
 .hero {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/hero-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
     width: 100%;
     background-color: var(--clr-dmain);
     align-items: center;
@@ -133,6 +137,21 @@ h2 {
     display: flex;
     gap: 24px;
     padding: 0;
+}
+.features-items {
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F4F4FD;
+    border-radius: 4px;
+}
+.features-icons {
+    width: 60px;
+    height: 64px;
+    background-color: #F4F4FD;
+    fill: #2E2F42;
 }
 .features-list h3 {
     font-size: 20px;
@@ -287,6 +306,37 @@ h2 {
     width: 360px;
     padding-bottom: 24px;
 }
+/* customers */
+.customer {
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+.customer-title {
+
+}
+.customer-list {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-top: 72px;
+}
+.customer-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+}
+.customer-icon {
+    width: 104px;
+    height: 56px;
+    fill: #AFB1B8;
+}
+
+
 .footer {
     background-color: var(--clr-dmain);
     color: #E7E9FC;
@@ -300,6 +350,49 @@ h2 {
 }
 .footer-text {
     padding-top: 16px;
-    display: block;
+    display: flex;
     width: 264px;
+}
+
+.social-list {
+    display: flex;
+    gap: 16px;
+}
+.social-items {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.social-icons {
+    width: 20px;
+    height: 20px;
+    fill: #F4F4FD;
+}
+.footer-block {
+    display: flex;
+}
+.footer-logo-info {
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+.footer-sm {
+    display: flex;
+    padding-bottom: 16px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.social-media {
+    display: flex;
+    flex-direction: column;
 }
