@@ -369,21 +369,22 @@ h2 {
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    fill: #AFB1B8
 }
 .customer-link:hover,
-.customer-link:focus svg{
+.customer-link:focus {
     border-color: #404BBF;
     fill: #404BBF;;
 }
 .customer-icon {
     width: 104px;
     height: 56px;
-    fill: #AFB1B8;
+   ;
 }
-.customer-icon:hover,
+/* .customer-icon:hover,
 .customer-icon:focus {
     fill: #404BBF;
-}
+} */
 
 
 .footer {
